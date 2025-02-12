@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Fit World - Presupuesto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!--Encabezado y Navegación-->
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="Mass Fit World logo" class="logo">
+            </a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Sección del formulario-->
+    <section class="formulario">
+        <h1>Solicita tu presupuesto</h1>
+        <p>Completa el formulario y te enviaremos un presupuesto personalizado acorde a tus necesidades</p>
+        
+        <!--Formulario de contacto con validación-->
+        <form action="#" method="post">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+
+            <label for="servicio">Selecciona un servicio</label>
+            <select id="servicio" name="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="alimentacion">Alimentación Saludable</option>
+                <option value="coaching">Coaching Personalizado</option>
+                <option value="musculacion">Musculación</option>
+            </select>
+
+            <label for="mensaje">Solicite más información</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Detalles adicionales sobre su solicitud" required></textarea>
+
+            <label for="politica" class="checkbox-label">
+                <input type="checkbox" id="politica" name="politica" required>
+                <span>Acepto la <a href="#">Política de Privacidad</a></span>
+            </label>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <!-- Pie de página con derechos de autor y redes sociales -->
+    <footer>
+        <p>&copy; 2025 Mass Fit World | Todos los derechos reservados</p>
+        <p><small>Calle Sebastián de la Plaza 2, Madrid, España</small></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><img src="../images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="../images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com"><img src="../images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com"><img src="../images/youtube.png" alt="YouTube"></a>
+        </div>
+        <p><small><a href="aviso-legal.html">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></small></p>
+    </footer>
+
+</body>
+</html>
