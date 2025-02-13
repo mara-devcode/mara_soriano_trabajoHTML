@@ -19,7 +19,7 @@ El proyecto contiene los siguientes archivos y carpetas:
 
 ## 🌐 Hosting del Proyecto
 Puede ver el sitio en línea en el siguiente enlace:  
-🔗 [GitHub Pages - Proyecto HTML](https://tudireccion.github.io/)
+🔗 https://mara-devcode.github.io/mara_soriano_trabajoHTML/
 
 ## 📖 Instrucciones de Uso
 1. Descargue el proyecto y extraiga los archivos.
