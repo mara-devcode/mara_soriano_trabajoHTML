@@ -182,6 +182,7 @@ nav ul li a.active:hover {
    position: relative;
    text-align: center;
    margin-top: 120px;
+   display: flex;
 }
 
 /* Contenedor interno del carrusel */
@@ -190,14 +191,14 @@ nav ul li a.active:hover {
    width: 300%;
    height: 100%;
    animation: slide 15s infinite ease-in-out;
-   align-items: center; /* Alinea las imágenes verticalmente */
+   align-items: center;
 }
 
 /* Estilo de las imágenes dentro del carrusel */
 .carousel img {
    width: 100vw;
    height: 100%;
-   object-fit: cover; /* Recorta la imagen si es necesario */
+   object-fit: cover;
    flex-shrink: 0;
 }
 
@@ -419,17 +420,33 @@ footer p {
 /* Estilo para los íconos de redes sociales */
 .social-icons {
    margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
 }
 
 .social-icons img {
-   width: 50px;
+   width: 5vw;
+   height: 5vw;
+   object-fit: contain;
    margin: 0 10px;
-   transition: transform 0.3s ease;
+   max-width: 50px; 
+   max-height: 50px;
+   transition: transform 0.3s ease
 }
 
 /* Efecto al pasar el mouse sobre los íconos de redes sociales */
 .social-icons img:hover {
    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+   .social-icons img {
+      width: 8vw;
+      height: 8vw;
+      max-width: 40px;
+      max-height: 40px;
+   }
 }
 
 /* ================== EFECTOS Y ANIMACIONES ================== */
