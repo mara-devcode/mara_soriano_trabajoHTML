@@ -28,4 +28,4 @@ Puede ver el sitio en línea en el siguiente enlace:
 
 ---
 👩‍💻 **Desarrollado por:** Mara Soriano  
-📅 **Fecha de entrega:** [14/02/2025]
+📅 **Fecha de entrega:** [17/02/2025]

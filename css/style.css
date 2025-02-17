@@ -187,28 +187,28 @@ nav ul li a.active:hover {
 /* Contenedor interno del carrusel */
 .carousel-inner {
    display: flex;
-   width: 300vw;
+   width: 300%;
+   height: 100%;
    animation: slide 15s infinite ease-in-out;
+   align-items: center; /* Alinea las imágenes verticalmente */
 }
 
 /* Estilo de las imágenes dentro del carrusel */
 .carousel img {
    width: 100vw;
-   height: 70%;
-   object-fit: cover;
+   height: 100%;
+   object-fit: cover; /* Recorta la imagen si es necesario */
    flex-shrink: 0;
 }
 
 /* Animación para el carrusel */
 @keyframes slide {
-   0% { transform: translateX(0); }
-   25% { transform: translateX(0); }
-   30% { transform: translateX(-100vw); }
-   55% { transform: translateX(-100vw); }
-   60% { transform: translateX(-200vw); }
-   85% { transform: translateX(-200vw); }
+   0%, 25% { transform: translateX(0); }
+   30%, 55% { transform: translateX(-100vw); }
+   60%, 85% { transform: translateX(-200vw); }
    100% { transform: translateX(0); }
 }
+
 
 /* ================== CONTENIDO RELACIONADO ================== */
 
